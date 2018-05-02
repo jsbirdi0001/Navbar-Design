@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="bootstrap.css">
+	<script src="bootstrap.js"></script>
+	<script src="jquery.js"></script>
+	<style>
+		body{
+			padding: none;
+			margin: none;
+		}
+		.navigation{
+			
+			background: linear-gradient(to right,white 10%, orange);
+			border-bottom: 2px solid orange;
+			overflow: hidden;
+
+		}
+		.navigation .logo{
+			color: black;
+			padding: 5px;
+			padding-top: 20px;
+			
+			font-family: stencil;
+			font-size: 20px;
+			float: left;
+		}
+		.navigation .logo a{
+			text-decoration:none;
+			color: black;
+			padding-left: 15px;
+			padding-top:20px;
+			padding-right: 20px;
+		}
+		.navigation .logo a:hover{
+			text-decoration:none;
+			color: tomato;
+
+		}
+		.navigation .logo:hover{
+			color: orange;
+			cursor: pointer;
+		}
+		.navigation ul{
+			list-style-type: none;
+			float: right;
+			
+			
+		}
+		.navigation ul li{
+			float: left;
+			color: black;
+			padding: 20px;
+			padding-top:20px;
+			padding-bottom: 20px;
+			font-size: 20px;
+			font-weight: bold;
+			transition: 0.2s;
+			
+		}
+		.navigation ul li:hover{
+			cursor: pointer;
+			color:black;
+			transform: scale(1.3);
+	
+		}
+		.clear{
+			clear:both;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<nav class="navigation row">
+			<div class="logo col-md-4 text-center">
+				<h1><a href="?">Jatinder Singh</a></h1>
+			</div>
+			<div class="col-md-8" style="margin: 0 auto">
+				<ul>
+					<li >Home</li>
+					<li>Technology</li>
+					<li>Science</li>
+					<li>About Us</li>
+					<li>Contact Us</li>
+				</ul>
+			</div>
+			
+			
+		</nav>
+	</div>
+</body>
+</html>
